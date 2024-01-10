@@ -1,0 +1,51 @@
+.rand-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto; /* Centra el contenedor horizontalmente */
+    max-width: 300px; 
+  }
+  
+  
+  .rand-btn{
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #a12929;
+    padding: 8px 16px;
+    margin: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .pokemon-container{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+.pokemon-container:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+    transition-delay: now;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite 1s;
+}
+
+.name {
+  color: #fff;
+  width: 100%;
+}
